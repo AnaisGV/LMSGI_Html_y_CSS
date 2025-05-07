@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}
+h1, h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+.jargon {
+    max-width: 600px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+.term {
+    margin-bottom: 20px;
+}
+.highlight {
+    background-color: #007BFF;
+    color: white;
+    padding: 5px;
+    display: inline-block;
+    border-radius: 5px;
+}
+blockquote {
+    font-style: italic;
+    color: #666;
+    padding: 10px;
+    border-left: 3px solid #007BFF;
+}

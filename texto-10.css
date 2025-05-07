@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('fuentes/PlayfairDisplay.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('fuentes/Roboto-Italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url('fuentes/RobotoCondensed.ttf') format('truetype');
+}
+
+body {
+    font-family: "Roboto Slab", serif;
+    background-color: #4c6ef5; 
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #1e293b; 
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 3em;
+    text-transform: uppercase;
+    color: #e0b973;
+}
+
+h2 {
+    font-family: "Lora", serif;
+    font-size: 2em;
+    color: #ffa726;
+    text-decoration: underline;
+}
+
+.text-style1 {
+    font-family: "Roboto Slab", serif;
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+.text-style2 {
+    font-family: "Lora", serif;
+    font-size: 1.1em;
+    color: #82eaff;
+}
+
+.quote {
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #374151;
+    border-radius: 8px;
+}
+
+.latin {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #e0b973;
+    text-align: left;
+}
+
+.translation {
+    font-size: 1.2em;
+    text-align: right; 
+    font-style: italic;
+    color: #ffcc80;
+    
+}
+
+cite {
+    font-style: normal;
+    font-weight: bold;
+    color: #82eaff;
+}
